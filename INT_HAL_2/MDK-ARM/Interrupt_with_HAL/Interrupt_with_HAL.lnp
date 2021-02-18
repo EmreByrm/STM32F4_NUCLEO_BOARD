@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"interrupt_with_hal\startup_stm32f446xx.o"
+"interrupt_with_hal\main.o"
+"interrupt_with_hal\stm32f4xx_it.o"
+"interrupt_with_hal\stm32f4xx_hal_msp.o"
+"interrupt_with_hal\stm32f4xx_hal_tim.o"
+"interrupt_with_hal\stm32f4xx_hal_tim_ex.o"
+"interrupt_with_hal\stm32f4xx_hal_rcc.o"
+"interrupt_with_hal\stm32f4xx_hal_rcc_ex.o"
+"interrupt_with_hal\stm32f4xx_hal_flash.o"
+"interrupt_with_hal\stm32f4xx_hal_flash_ex.o"
+"interrupt_with_hal\stm32f4xx_hal_flash_ramfunc.o"
+"interrupt_with_hal\stm32f4xx_hal_gpio.o"
+"interrupt_with_hal\stm32f4xx_hal_dma_ex.o"
+"interrupt_with_hal\stm32f4xx_hal_dma.o"
+"interrupt_with_hal\stm32f4xx_hal_pwr.o"
+"interrupt_with_hal\stm32f4xx_hal_pwr_ex.o"
+"interrupt_with_hal\stm32f4xx_hal_cortex.o"
+"interrupt_with_hal\stm32f4xx_hal.o"
+"interrupt_with_hal\stm32f4xx_hal_exti.o"
+"interrupt_with_hal\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Interrupt_with_HAL\Interrupt_with_HAL.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Interrupt_with_HAL.map" -o Interrupt_with_HAL\Interrupt_with_HAL.axf
