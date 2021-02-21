@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"timer4\startup_stm32f446xx.o"
+"timer4\main.o"
+"timer4\stm32f4xx_it.o"
+"timer4\stm32f4xx_hal_msp.o"
+"timer4\stm32f4xx_hal_tim.o"
+"timer4\stm32f4xx_hal_tim_ex.o"
+"timer4\stm32f4xx_hal_rcc.o"
+"timer4\stm32f4xx_hal_rcc_ex.o"
+"timer4\stm32f4xx_hal_flash.o"
+"timer4\stm32f4xx_hal_flash_ex.o"
+"timer4\stm32f4xx_hal_flash_ramfunc.o"
+"timer4\stm32f4xx_hal_gpio.o"
+"timer4\stm32f4xx_hal_dma_ex.o"
+"timer4\stm32f4xx_hal_dma.o"
+"timer4\stm32f4xx_hal_pwr.o"
+"timer4\stm32f4xx_hal_pwr_ex.o"
+"timer4\stm32f4xx_hal_cortex.o"
+"timer4\stm32f4xx_hal.o"
+"timer4\stm32f4xx_hal_exti.o"
+"timer4\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Timer4\Timer4.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Timer4.map" -o Timer4\Timer4.axf
