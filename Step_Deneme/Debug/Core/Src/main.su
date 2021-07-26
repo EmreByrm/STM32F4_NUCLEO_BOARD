@@ -1,0 +1,8 @@
+main.c:60:6:Servo_ForwardDirection	8	static
+main.c:132:6:Servo_BackDirection	8	static
+main.c:206:6:ADC_Calculate	8	static
+main.c:220:5:main	8	static
+main.c:268:6:SystemClock_Config	160	static
+main.c:314:13:MX_ADC1_Init	48	static
+main.c:377:13:MX_GPIO_Init	48	static
+main.c:431:6:Error_Handler	4	static
