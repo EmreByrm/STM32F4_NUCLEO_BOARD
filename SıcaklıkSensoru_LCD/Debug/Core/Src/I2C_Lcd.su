@@ -1,0 +1,6 @@
+I2C_Lcd.c:17:6:Lcd_send_cmd	32	static
+I2C_Lcd.c:30:6:Lcd_send_data	32	static
+I2C_Lcd.c:43:6:Lcd_clear	16	static
+I2C_Lcd.c:53:6:Lcd_put_cur	16	static
+I2C_Lcd.c:68:6:Lcd_init	8	static
+I2C_Lcd.c:94:6:Lcd_send_string	16	static
